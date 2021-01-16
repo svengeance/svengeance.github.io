@@ -2,11 +2,11 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>/</loc><lastmod>2021-01-14T22:34:37&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>/categories/</loc><lastmod>2021-01-14T22:34:37&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>/linux-distribution-os-release-information-compilation/</loc><lastmod>2021-01-14T22:34:37&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>/categories/compilations/</loc><lastmod>2021-01-14T22:34:37&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>/tags/linux/</loc><lastmod>2021-01-14T22:34:37&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>/posts/</loc><lastmod>2021-01-14T22:34:37&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>/tags/</loc><lastmod>2021-01-14T22:34:37&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>/hello-world/</loc><lastmod>2020-09-24T02:34:37&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>https://blog.sven.ai/</loc><lastmod>2021-01-14T22:34:37&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blog.sven.ai/categories/</loc><lastmod>2021-01-14T22:34:37&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blog.sven.ai/linux-distribution-os-release-information-compilation/</loc><lastmod>2021-01-14T22:34:37&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blog.sven.ai/categories/compilations/</loc><lastmod>2021-01-14T22:34:37&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blog.sven.ai/tags/linux/</loc><lastmod>2021-01-14T22:34:37&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blog.sven.ai/posts/</loc><lastmod>2021-01-14T22:34:37&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blog.sven.ai/tags/</loc><lastmod>2021-01-14T22:34:37&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blog.sven.ai/hello-world/</loc><lastmod>2020-09-24T02:34:37&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
