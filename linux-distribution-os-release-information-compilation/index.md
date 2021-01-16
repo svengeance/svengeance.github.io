@@ -6,6 +6,11 @@ FreeDesktop.org [specifies an expected format](https://www.freedesktop.org/softw
 
 <!--more-->
 
+{{< admonition type=note title="Small Update" >}}
+After futher perusal for yet more /etc/os-release information, I sumbled upon [this GitHub Repository by higanworks](https://github.com/higanworks/os_catalog) that is much more complete,
+and well maintained. Give it a look!![](2021-01-15-22-43-31.png)
+{{< /admonition >}}
+
 ## Debian
 `docker run -it debian cat /etc/os-release`
 >PRETTY_NAME="Debian GNU/Linux 10 (buster)"  
@@ -96,7 +101,7 @@ FreeDesktop.org [specifies an expected format](https://www.freedesktop.org/softw
 >PRETTY_NAME="Alpine Linux v3.13"  
 >HOME_URL="https://alpinelinux.org/"  
 >BUG_REPORT_URL="https://bugs.alpinelinux.org/"  
-
+![](docker-is-awesome-preview.png)
 ## Linux Mint
 [Source](https://www.tecmint.com/upgrade-to-linux-mint-20/)  
 >NAME="Linux Mint"  
