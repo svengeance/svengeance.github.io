@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Compilation of Linux Distributions&#39; /etc/os-release Information - Blog | Sven</title><meta name="description" content="A list of the output of &#39;cat etc/os-release&#39; for various Linux Distributions"><meta property="og:title" content="Compilation of Linux Distributions&#39; /etc/os-release Information" />
+<meta property="og:description" content="A list of the output of &#39;cat etc/os-release&#39; for various Linux Distributions" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/linux-distribution-os-release-information-compilation/" />
+<meta property="og:image" content="/site-icons/mally_av.png"/>
+<meta property="article:published_time" content="2021-01-14T02:34:37+00:00" />
+<meta property="article:modified_time" content="2020-09-24T02:34:37+00:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/site-icons/mally_av.png"/>
+
+<meta name="twitter:title" content="Compilation of Linux Distributions&#39; /etc/os-release Information"/>
+<meta name="twitter:description" content="A list of the output of &#39;cat etc/os-release&#39; for various Linux Distributions"/>
+<meta name="application-name" content="Sven | Blog">
+<meta name="apple-mobile-web-app-title" content="Sven | Blog"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="/linux-distribution-os-release-information-compilation/" /><link rel="prev" href="/hello-world/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Compilation of Linux Distributions' /etc/os-release Information",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/linux-distribution-os-release-information-compilation\/"
+        },"genre": "posts","keywords": "Linux","wordcount":  207 ,
+        "url": "\/linux-distribution-os-release-information-compilation\/","datePublished": "2021-01-14T02:34:37+00:00","dateModified": "2020-09-24T02:34:37+00:00","publisher": {
+            "@type": "Organization",
+            "name": "Stephen (Sven) Vernyi"},"author": {
+                "@type": "Person",
+                "name": "Sven"
+            },"description": "A list of the output of 'cat etc/os-release' for various Linux Distributions"
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Blog | Sven">Blog Home<span class="header-title-post">&emsp;<a href="https://www.sven.ai">Portfolio Website</a></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Blog | Sven">Blog Home<span class="header-title-post">&emsp;<a href="https://www.sven.ai">Portfolio Website</a></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Compilation of Linux Distributions&#39; /etc/os-release Information</h1><h2 class="single-subtitle">Versions are the latest, reasonably obtainable/searchable at time of writing</h2><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://sven.ai" title="Author" target="_blank" rel="noopener noreferrer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Sven</a></span>&nbsp;<span class="post-category">included in <a href="/categories/compilations/"><i class="far fa-folder fa-fw"></i>Compilations</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-01-14">2021-01-14</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;207 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;One minute&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="true">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#debian">Debian</a></li>
+    <li><a href="#ubuntu">Ubuntu</a></li>
+    <li><a href="#fedora">Fedora</a></li>
+    <li><a href="#rhel">RHEL</a></li>
+    <li><a href="#opensuse-leap">openSUSE Leap</a></li>
+    <li><a href="#alpine">Alpine</a></li>
+    <li><a href="#linux-mint">Linux Mint</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>I had a need to obtain this information to figure out &ldquo;generically&rdquo; what shape I could expect to find this information in.
+FreeDesktop.org <a href="https://www.freedesktop.org/software/systemd/man/os-release.html" target="_blank" rel="noopener noreferrer">specifies an expected format</a>, but as a best practice I prefer evidence over assumptions.</p>
+<h2 id="debian">Debian</h2>
+<p><code>docker run -it debian cat /etc/os-release</code></p>
+<blockquote>
+<p>PRETTY_NAME=&ldquo;Debian GNU/Linux 10 (buster)&rdquo;<br>
+NAME=&ldquo;Debian GNU/Linux&rdquo;<br>
+VERSION_ID=&ldquo;10&rdquo;<br>
+VERSION=&ldquo;10 (buster)&rdquo;<br>
+VERSION_CODENAME=buster<br>
+ID=debian<br>
+HOME_URL=&ldquo;<a href="https://www.debian.org/%22">https://www.debian.org/&quot;</a><br>
+SUPPORT_URL=&ldquo;<a href="https://www.debian.org/support%22">https://www.debian.org/support&quot;</a><br>
+BUG_REPORT_URL=&ldquo;<a href="https://bugs.debian.org/%22">https://bugs.debian.org/&quot;</a></p>
+</blockquote>
+<h2 id="ubuntu">Ubuntu</h2>
+<p><code>docker run -it ubuntu cat /etc/os-release</code></p>
+<blockquote>
+<p>NAME=&ldquo;Ubuntu&rdquo;<br>
+VERSION=&ldquo;20.04.1 LTS (Focal Fossa)&rdquo;<br>
+ID=ubuntu
+ID_LIKE=debian<br>
+PRETTY_NAME=&ldquo;Ubuntu 20.04.1 LTS&rdquo;<br>
+VERSION_ID=&ldquo;20.04&rdquo;<br>
+HOME_URL=&ldquo;<a href="https://www.ubuntu.com/%22">https://www.ubuntu.com/&quot;</a><br>
+SUPPORT_URL=&ldquo;<a href="https://help.ubuntu.com/%22">https://help.ubuntu.com/&quot;</a><br>
+BUG_REPORT_URL=&ldquo;<a href="https://bugs.launchpad.net/ubuntu/%22">https://bugs.launchpad.net/ubuntu/&quot;</a><br>
+PRIVACY_POLICY_URL=&ldquo;<a href="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy%22">https://www.ubuntu.com/legal/terms-and-policies/privacy-policy&quot;</a><br>
+VERSION_CODENAME=focal<br>
+UBUNTU_CODENAME=focal</p>
+</blockquote>
+<h2 id="fedora">Fedora</h2>
+<p><code>docker run -it fedora cat /etc/os-release</code></p>
+<blockquote>
+<p>NAME=Fedora<br>
+VERSION=&ldquo;33 (Container Image)&rdquo;<br>
+ID=fedora<br>
+VERSION_ID=33<br>
+VERSION_CODENAME=&rdquo;&rdquo;<br>
+PLATFORM_ID=&ldquo;platform:f33&rdquo;<br>
+PRETTY_NAME=&ldquo;Fedora 33 (Container Image)&rdquo;<br>
+ANSI_COLOR=&ldquo;0;38;2;60;110;180&rdquo;<br>
+LOGO=fedora-logo-icon<br>
+CPE_NAME=&ldquo;cpe:/o:fedoraproject:fedora:33&rdquo;<br>
+HOME_URL=&ldquo;<a href="https://fedoraproject.org/%22">https://fedoraproject.org/&quot;</a><br>
+DOCUMENTATION_URL=&ldquo;<a href="https://docs.fedoraproject.org/en-US/fedora/f33/system-administrators-guide/%22">https://docs.fedoraproject.org/en-US/fedora/f33/system-administrators-guide/&quot;</a><br>
+SUPPORT_URL=&ldquo;<a href="https://fedoraproject.org/wiki/Communicating_and_getting_help%22">https://fedoraproject.org/wiki/Communicating_and_getting_help&quot;</a><br>
+BUG_REPORT_URL=&ldquo;<a href="https://bugzilla.redhat.com/%22">https://bugzilla.redhat.com/&quot;</a><br>
+REDHAT_BUGZILLA_PRODUCT=&ldquo;Fedora&rdquo;<br>
+REDHAT_BUGZILLA_PRODUCT_VERSION=33<br>
+REDHAT_SUPPORT_PRODUCT=&ldquo;Fedora&rdquo;<br>
+REDHAT_SUPPORT_PRODUCT_VERSION=33<br>
+PRIVACY_POLICY_URL=&ldquo;<a href="https://fedoraproject.org/wiki/Legal:PrivacyPolicy%22">https://fedoraproject.org/wiki/Legal:PrivacyPolicy&quot;</a><br>
+VARIANT=&ldquo;Container Image&rdquo;<br>
+VARIANT_ID=container</p>
+</blockquote>
+<h2 id="rhel">RHEL</h2>
+<p><a href="https://linuxconfig.org/how-to-check-redhat-version" target="_blank" rel="noopener noreferrer">Source</a></p>
+<blockquote>
+<p>NAME=&ldquo;Red Hat Enterprise Linux Server&rdquo;<br>
+VERSION=&ldquo;7.3 (Maipo)&rdquo;<br>
+ID=&ldquo;rhel&rdquo;<br>
+ID_LIKE=&ldquo;fedora&rdquo;<br>
+VERSION_ID=&ldquo;7.3&rdquo;<br>
+PRETTY_NAME=&ldquo;Red Hat Enterprise Linux Server 7.3 (Maipo)&rdquo;<br>
+ANSI_COLOR=&ldquo;0;31&rdquo;<br>
+CPE_NAME=&ldquo;cpe:/o:redhat:enterprise_linux:7.3:GA:server&rdquo;<br>
+HOME_URL=&ldquo;<a href="https://www.redhat.com/%22">https://www.redhat.com/&quot;</a><br>
+BUG_REPORT_URL=&ldquo;<a href="https://bugzilla.redhat.com/%22">https://bugzilla.redhat.com/&quot;</a></p>
+<p>REDHAT_BUGZILLA_PRODUCT=&ldquo;Red Hat Enterprise Linux 7&rdquo;<br>
+REDHAT_BUGZILLA_PRODUCT_VERSION=7.3<br>
+REDHAT_SUPPORT_PRODUCT=&ldquo;Red Hat Enterprise Linux&rdquo;<br>
+REDHAT_SUPPORT_PRODUCT_VERSION=&ldquo;7.3&rdquo;</p>
+</blockquote>
+<h2 id="opensuse-leap">openSUSE Leap</h2>
+<p><code>docker run -it opensuse/leap cat /etc/os-release</code></p>
+<blockquote>
+<p>NAME=&ldquo;openSUSE Leap&rdquo;<br>
+VERSION=&ldquo;15.2&rdquo;<br>
+ID=&ldquo;opensuse-leap&rdquo;<br>
+ID_LIKE=&ldquo;suse opensuse&rdquo;<br>
+VERSION_ID=&ldquo;15.2&rdquo;<br>
+PRETTY_NAME=&ldquo;openSUSE Leap 15.2&rdquo;<br>
+ANSI_COLOR=&ldquo;0;32&rdquo;<br>
+CPE_NAME=&ldquo;cpe:/o:opensuse:leap:15.2&rdquo;<br>
+BUG_REPORT_URL=&ldquo;<a href="https://bugs.opensuse.org">https://bugs.opensuse.org</a>&rdquo;<br>
+HOME_URL=&ldquo;<a href="https://www.opensuse.org/%22">https://www.opensuse.org/&quot;</a></p>
+</blockquote>
+<h2 id="alpine">Alpine</h2>
+<p><code>docker run -it alpine cat /etc/os-release</code></p>
+<blockquote>
+<p>NAME=&ldquo;Alpine Linux&rdquo;<br>
+ID=alpine<br>
+VERSION_ID=3.13.0<br>
+PRETTY_NAME=&ldquo;Alpine Linux v3.13&rdquo;<br>
+HOME_URL=&ldquo;<a href="https://alpinelinux.org/%22">https://alpinelinux.org/&quot;</a><br>
+BUG_REPORT_URL=&ldquo;<a href="https://bugs.alpinelinux.org/%22">https://bugs.alpinelinux.org/&quot;</a></p>
+</blockquote>
+<h2 id="linux-mint">Linux Mint</h2>
+<p><a href="https://www.tecmint.com/upgrade-to-linux-mint-20/" target="_blank" rel="noopener noreferrer">Source</a></p>
+<blockquote>
+<p>NAME=&ldquo;Linux Mint&rdquo;<br>
+VERSION=&ldquo;20 (Ulyana)&rdquo;<br>
+ID=linuxmint<br>
+ID_LIKE=ubuntu<br>
+PRETTY_NAME=&ldquo;Linux Mint 20&rdquo;<br>
+VERSION_ID=&ldquo;20&rdquo;<br>
+HOME_URL=&ldquo;<a href="https://www.linuxmint.com">https://www.linuxmint.com</a>&rdquo;<br>
+SUPPORT_URL=&ldquo;<a href="https://forums.ubuntu.com/%22">https://forums.ubuntu.com/&quot;</a><br>
+BUG_REPORT_URL=&ldquo;<a href="http://linuxmint-troubleshooting-guide.readthedocs.io/en/latest/%22">http://linuxmint-troubleshooting-guide.readthedocs.io/en/latest/&quot;</a><br>
+PRIVACY_POLICY_URL=&ldquo;<a href="https://linuxmint.com">https://linuxmint.com</a>&rdquo;<br>
+VERSION_CODENAME=ulyana<br>
+UBUNTU_CODENAME=focal</p>
+</blockquote></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2020-09-24</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/linux-distribution-os-release-information-compilation/index.md" target="_blank" rel="noopener noreferrer">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="/linux-distribution-os-release-information-compilation/" data-title="Compilation of Linux Distributions&#39; /etc/os-release Information" data-via="SvenVernyi" data-hashtags="Linux"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="/linux-distribution-os-release-information-compilation/" data-hashtag="Linux"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="/linux-distribution-os-release-information-compilation/"><i class="fab fa-linkedin fa-fw"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="/linux-distribution-os-release-information-compilation/"><i class="fab fa-reddit fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/linux/">Linux</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/hello-world/" class="prev" rel="prev" title="Quick Hello!"><i class="fas fa-angle-left fa-fw"></i>Quick Hello!</a></div>
+</div>
+<div id="comments">
+        <div id="remark42"></div></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer" title="Hugo 0.80.0">Hugo</a> | Theme - <a href="https://github.com/sunt-programator/CodeIT" target="_blank" rel="noopener noreferrer" title="CodeIT 0.2.10"><i class="fas fa-laptop-code fa-fw"></i> CodeIT</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2020 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://sven.ai" target="_blank" rel="noopener noreferrer">Sven</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script>
+    var remark_config = {
+      host: "https://remark42.sven.ai", 
+      site_id: 'sven_ai_blog',
+      components: ['embed'], 
+                             
+                             
+                             
+                             
+                             
+      
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+      max_shown_comments: 10, 
+      theme: 'dark', 
+      
+      
+      show_email_subscription: false 
+                                     
+                                     
+                                     
+    };
+  </script>
+  <script>!function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".js"):r.async=!0,r.defer=!0,r.src=remark_config.host+"/web/"+e[o]+c,d.appendChild(r)}}(remark_config.components||["embed"],document);</script><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'UA-178644638-1', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-178644638-1" async></script></body>
+</html>

@@ -1,12 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Blog | Sven</title>
-        <link>/</link>
-        <description>Sven - Ramblings from Ohio</description>
+        <title>Linux - Tag - Blog | Sven</title>
+        <link>/tags/linux/</link>
+        <description>Linux - Tag - Blog | Sven</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>sven@sven.ai (Sven)</managingEditor>
-            <webMaster>sven@sven.ai (Sven)</webMaster><lastBuildDate>Thu, 14 Jan 2021 02:34:37 &#43;0000</lastBuildDate>
-            <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+            <webMaster>sven@sven.ai (Sven)</webMaster><lastBuildDate>Thu, 14 Jan 2021 02:34:37 &#43;0000</lastBuildDate><atom:link href="/tags/linux/" rel="self" type="application/rss+xml" /><item>
     <title>Compilation of Linux Distributions&#39; /etc/os-release Information</title>
     <link>/linux-distribution-os-release-information-compilation/</link>
     <pubDate>Thu, 14 Jan 2021 02:34:37 &#43;0000</pubDate>
@@ -14,14 +12,5 @@
     <guid>/linux-distribution-os-release-information-compilation/</guid>
     <description><![CDATA[<p>I had a need to obtain this information to figure out &ldquo;generically&rdquo; what shape I could expect to find this information in.
 FreeDesktop.org <a href="https://www.freedesktop.org/software/systemd/man/os-release.html" target="_blank" rel="noopener noreferrer">specifies an expected format</a>, but as a best practice I prefer evidence over assumptions.</p>]]></description>
-</item><item>
-    <title>Quick Hello!</title>
-    <link>/hello-world/</link>
-    <pubDate>Tue, 22 Sep 2020 02:34:37 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>/hello-world/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/sven-and-natalie.png" referrerpolicy="no-referrer">
-            </div><p>Brief introduction, what is this place, and <em>why Sven?</em></p>]]></description>
 </item></channel>
 </rss>
