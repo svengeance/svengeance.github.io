@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Hugo - Tag - Blog | Sven</title>
+        <link>https://blog.sven.ai/tags/hugo/</link>
+        <description>Hugo - Tag - Blog | Sven</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>sven@sven.ai (Sven)</managingEditor>
+            <webMaster>sven@sven.ai (Sven)</webMaster><lastBuildDate>Sat, 16 Jan 2021 02:45:31 -0500</lastBuildDate><atom:link href="https://blog.sven.ai/tags/hugo/" rel="self" type="application/rss+xml" /><item>
+    <title>How I Use VS Code to Maintain/Develop Hugo</title>
+    <link>https://blog.sven.ai/vscode-and-hugo-development-setup/</link>
+    <pubDate>Sat, 16 Jan 2021 02:45:31 -0500</pubDate>
+    <author>Author</author>
+    <guid>https://blog.sven.ai/vscode-and-hugo-development-setup/</guid>
+    <description><![CDATA[A brief description of the development environment I have setup for Hugo.]]></description>
+</item></channel>
+</rss>
